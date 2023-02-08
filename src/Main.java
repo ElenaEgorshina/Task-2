@@ -7,7 +7,7 @@ public class Main {
         int bonus; // бонус начисляется за каждые 100 руб.
         int total; // итоговая сумма
 
-        if (add >= 1000) {
+        if (add > 1000) {
             bonus = add / 100;
         } else {
             bonus = 0;
